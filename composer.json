@@ -1,0 +1,18 @@
+{
+    "name": "root/harsh_composer",
+    "authors": [
+        {
+            "name": "harshkumar94",
+            "email": "harshkumara94@gmail.com"
+        }
+    ],
+    "require": {
+        "nxp/math-executor": "^0.7.2",
+        "nesbot/carbon": "^2.12",
+        "symfony/console": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {"calculator\\": "calculator"}
+        }
+
+}
